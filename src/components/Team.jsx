@@ -29,7 +29,7 @@ export default function Team() {
             <img className='brightness-110 rounded-3xl' src="https://media.licdn.com/dms/image/D5603AQHsxprnmkCF_A/profile-displayphoto-shrink_800_800/0/1691547981548?e=1697068800&v=beta&t=2Vpcwm6V4drZSIII47QW61bB1t9JY0gwYExr1c7hMXM" />
             <h3 className='text-center mt-4 font-bold'>Ivy Wang</h3>
             <div className='flex flex-row justify-center'>
-              <a href="www.linkedin.com/in/wangwan"><img className='w-12' src={linkedin}/></a>
+              <a href="https://www.linkedin.com/in/wanwang12/"><img className='w-12' src={linkedin}/></a>
               <a href="https://github.com/WandefulWorld"><img className='w-12' src={github}/></a>
             </div>
           </li>
