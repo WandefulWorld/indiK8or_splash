@@ -1,4 +1,5 @@
-
+import linkedin from '../assets/linkedin.png';
+import github from '../assets/github.png';
 
 const people = [
   {
@@ -25,22 +26,36 @@ export default function Team() {
           <li className=''>
             <img className='rounded-3xl' src="https://media.licdn.com/dms/image/D4E03AQEjxoiHce81vg/profile-displayphoto-shrink_800_800/0/1690411493524?e=1697068800&v=beta&t=CK9PEBvItTo9C3Cche0Wym8_lHZ_j_xV0iEv4i2Xmgg" />
             <h3 className='text-center mt-4 font-bold'>Yueran Li</h3>
-            <a href=""></a>
+            <div className='flex flex-row justify-center'>
+              <a href="https://www.linkedin.com/in/yueranli/"><img className='w-12' src={linkedin}/></a>
+              <a href="https://github.com/kneazle714"><img className='w-12' src={github}/></a>
+            </div>
+           
           </li>
           <li>
             <img className='brightness-110 rounded-3xl' src="https://media.licdn.com/dms/image/D5603AQHsxprnmkCF_A/profile-displayphoto-shrink_800_800/0/1691547981548?e=1697068800&v=beta&t=2Vpcwm6V4drZSIII47QW61bB1t9JY0gwYExr1c7hMXM" />
             <h3 className='text-center mt-4 font-bold'>Ivy Wang</h3>
-            <a href=""></a>
+            <div className='flex flex-row justify-center'>
+              <a href="www.linkedin.com/in/wangwan"><img className='w-12' src={linkedin}/></a>
+              <a href="https://github.com/WandefulWorld"><img className='w-12' src={github}/></a>
+            </div>
           </li>
           <li>
             <img className='rounded-3xl' src="https://media.licdn.com/dms/image/D4E03AQGKTvrAbsB0eA/profile-displayphoto-shrink_800_800/0/1688859993008?e=1697068800&v=beta&t=hxQSWWBbCDJfQxO2bhz_klO9AVbiboV4c_IU8yV9WnA" />
             <h3 className='text-center mt-4 font-bold'>Julian Babon</h3>
-            <a href=""></a>
+            <div className='flex flex-row justify-center'>
+              <a href="https://www.linkedin.com/in/julianbabon/"><img className='w-12' src={linkedin}/></a>
+              <a href="https://github.com/babonjmc"><img className='w-12' src={github}/></a>
+            </div>
+
           </li>
           <li>
             <img className='rounded-3xl' src="https://media.licdn.com/dms/image/D4E03AQFCvLHKf0vJrQ/profile-displayphoto-shrink_800_800/0/1686921085710?e=1697068800&v=beta&t=dKAutjiMRxMOhzhF4OYP87oxkytf-2Kezfi8iZhJqLQ" />
             <h3 className='text-center mt-4 font-bold'>Tadd LeRocque</h3>
-            <a href=""></a>
+            <div className='flex flex-row justify-center'>
+              <a href="https://www.linkedin.com/in/taddlerocque/"><img className='w-12' src={linkedin}/></a>
+              <a href="https://github.com/LeRocque"><img className='w-12' src={github}/></a>
+            </div>
           </li>
       </ul>
       </div>
