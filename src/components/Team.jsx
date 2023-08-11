@@ -1,13 +1,6 @@
 import linkedin from '../assets/linkedin.png';
 import github from '../assets/github.png';
 
-const people = [
-  {
-    name: 'Yueran',
-    imageUrl:'',
-  },
-]
-
 export default function Team() {
   return (
       <div className="mt-24 max-w-7xl mx-auto px-4 sm:px-6 md:px-8 font-serif">

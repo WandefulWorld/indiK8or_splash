@@ -8,7 +8,7 @@ const port = 4000;
 
 app.use(
     cors({
-        origin: '',
+        origin: 'https://indik8or-359561821b26.herokuapp.com/',
         credentials: true,
     })
 );
