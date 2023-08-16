@@ -26,7 +26,7 @@ export default function Team() {
            
           </li>
           <li>
-            <img className='w-96 brightness-110 rounded-3xl' src="https://media.licdn.com/dms/image/D5603AQHsxprnmkCF_A/profile-displayphoto-shrink_800_800/0/1691547981548?e=1697068800&v=beta&t=2Vpcwm6V4drZSIII47QW61bB1t9JY0gwYExr1c7hMXM" />
+            <img className='w-96 brightness-110 rounded-3xl' src="https://media.licdn.com/dms/image/D4E03AQEgoAnFKOVlVw/profile-displayphoto-shrink_800_800/0/1692131380670?e=1697673600&v=beta&t=-jhExI78vT0URbF8I17u5CBJ7omfYKj4tT8Cpt3fIas" />
             <h3 className='text-center mt-4 font-bold'>Ivy Wang</h3>
             <div className='flex flex-row justify-center'>
               <a href="https://www.linkedin.com/in/wanwang12/"><img className='w-12' src={linkedin}/></a>
