@@ -13,11 +13,11 @@ export default function Team() {
         </div>
         <h2 className='mt-4 text-3xl font-bold tracking-tight text-gray-200 sm:text-4xl'>Meet Our Team</h2>
         <div className='mt-8 max-w-3xl space-y-6 text-gray-400 font-bold text-base'>
-          <p>We are a dynamic group of Software Engineers who are passionate about what we do.</p>
+          <p>We are a dynamic group of Software Engineers who are passionate about what we do</p>
         </div>
         <ul role='list' className='flex flex-row mt-12 gap-12'>
           <li className=''>
-            <img className='rounded-3xl w-96' src="https://media.licdn.com/dms/image/D4E03AQEjxoiHce81vg/profile-displayphoto-shrink_800_800/0/1690411493524?e=1697068800&v=beta&t=CK9PEBvItTo9C3Cche0Wym8_lHZ_j_xV0iEv4i2Xmgg" />
+            <img className='rounded-3xl w-96' src="https://media.licdn.com/dms/image/D4E03AQEjxoiHce81vg/profile-displayphoto-shrink_800_800/0/1690411493524?e=1703721600&v=beta&t=_6YfjODw2bXEj5JcrzzRL_ZzEiPheI-pije8HKZ_7ZY" />
             <h3 className='text-center mt-4 font-bold'>Yueran Li</h3>
             <div className='flex flex-row justify-center'>
               <a href="https://www.linkedin.com/in/yueranli/"><img className='w-12' src={linkedin}/></a>
@@ -26,7 +26,7 @@ export default function Team() {
            
           </li>
           <li>
-            <img className='w-96 brightness-110 rounded-3xl' src="https://media.licdn.com/dms/image/D4E03AQEgoAnFKOVlVw/profile-displayphoto-shrink_800_800/0/1692131380670?e=1697673600&v=beta&t=-jhExI78vT0URbF8I17u5CBJ7omfYKj4tT8Cpt3fIas" />
+            <img className='w-96 brightness-110 rounded-3xl' src="https://media.licdn.com/dms/image/D5603AQEad2bGHQauwg/profile-displayphoto-shrink_800_800/0/1698170458015?e=1703721600&v=beta&t=oq0qT38jfwg1xOKl4ulaqxfm5GEzKLuwGq83AAyDj1U" />
             <h3 className='text-center mt-4 font-bold'>Ivy Wang</h3>
             <div className='flex flex-row justify-center'>
               <a href="https://www.linkedin.com/in/wanwang12/"><img className='w-12' src={linkedin}/></a>
@@ -34,7 +34,7 @@ export default function Team() {
             </div>
           </li>
           <li>
-            <img className='w-96 rounded-3xl' src="https://media.licdn.com/dms/image/D4E03AQGKTvrAbsB0eA/profile-displayphoto-shrink_800_800/0/1688859993008?e=1697068800&v=beta&t=hxQSWWBbCDJfQxO2bhz_klO9AVbiboV4c_IU8yV9WnA" />
+            <img className='w-96 rounded-3xl' src="https://media.licdn.com/dms/image/D4E03AQGKTvrAbsB0eA/profile-displayphoto-shrink_800_800/0/1688859993008?e=1703721600&v=beta&t=tUcvr3VSweEftb0wAnnU1FCtWDUvPACrZFDQoU8BydQ" />
             <h3 className='text-center mt-4 font-bold'>Julian Babon</h3>
             <div className='flex flex-row justify-center'>
               <a href="https://www.linkedin.com/in/julianbabon/"><img className='w-12' src={linkedin}/></a>
@@ -43,7 +43,7 @@ export default function Team() {
 
           </li>
           <li>
-            <img className='w-96 rounded-3xl' src="https://media.licdn.com/dms/image/D4E03AQFCvLHKf0vJrQ/profile-displayphoto-shrink_800_800/0/1686921085710?e=1697068800&v=beta&t=dKAutjiMRxMOhzhF4OYP87oxkytf-2Kezfi8iZhJqLQ" />
+            <img className='w-96 rounded-3xl' src="https://media.licdn.com/dms/image/D4E03AQFCvLHKf0vJrQ/profile-displayphoto-shrink_800_800/0/1686921085710?e=1703721600&v=beta&t=UFyBS9qFfRlUjKt6Q82Yt7_Qxqo5e5LU2BX8gVR97iM" />
             <h3 className='text-center mt-4 font-bold'>Tadd LeRocque</h3>
             <div className='flex flex-row justify-center'>
               <a href="https://www.linkedin.com/in/taddlerocque/"><img className='w-12' src={linkedin}/></a>
