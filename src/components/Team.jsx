@@ -17,24 +17,20 @@ export default function Team() {
         </div>
         <ul role='list' className='flex flex-row mt-12 gap-12'>
           <li className=''>
-            <img className='rounded-3xl w-96' src="https://media.licdn.com/dms/image/D4E03AQEjxoiHce81vg/profile-displayphoto-shrink_800_800/0/1690411493524?e=1703721600&v=beta&t=_6YfjODw2bXEj5JcrzzRL_ZzEiPheI-pije8HKZ_7ZY" />
             <h3 className='text-center mt-4 font-bold'>Yueran Li</h3>
             <div className='flex flex-row justify-center'>
               <a href="https://www.linkedin.com/in/yueranli/"><img className='w-12' src={linkedin}/></a>
               <a href="https://github.com/kneazle714"><img className='w-12' src={github}/></a>
             </div>
-           
           </li>
           <li>
-            <img className='w-96 brightness-110 rounded-3xl' src="https://media.licdn.com/dms/image/D5603AQEad2bGHQauwg/profile-displayphoto-shrink_800_800/0/1698170458015?e=1703721600&v=beta&t=oq0qT38jfwg1xOKl4ulaqxfm5GEzKLuwGq83AAyDj1U" />
-            <h3 className='text-center mt-4 font-bold'>Ivy Wang</h3>
+            <h3 className='text-center mt-4 font-bold'>Ivy Wang </h3>
             <div className='flex flex-row justify-center'>
               <a href="https://www.linkedin.com/in/wanwang12/"><img className='w-12' src={linkedin}/></a>
               <a href="https://github.com/WandefulWorld"><img className='w-12' src={github}/></a>
             </div>
           </li>
           <li>
-            <img className='w-96 rounded-3xl' src="https://media.licdn.com/dms/image/D4E03AQGKTvrAbsB0eA/profile-displayphoto-shrink_800_800/0/1688859993008?e=1703721600&v=beta&t=tUcvr3VSweEftb0wAnnU1FCtWDUvPACrZFDQoU8BydQ" />
             <h3 className='text-center mt-4 font-bold'>Julian Babon</h3>
             <div className='flex flex-row justify-center'>
               <a href="https://www.linkedin.com/in/julianbabon/"><img className='w-12' src={linkedin}/></a>
@@ -43,7 +39,6 @@ export default function Team() {
 
           </li>
           <li>
-            <img className='w-96 rounded-3xl' src="https://media.licdn.com/dms/image/D4E03AQFCvLHKf0vJrQ/profile-displayphoto-shrink_800_800/0/1686921085710?e=1703721600&v=beta&t=UFyBS9qFfRlUjKt6Q82Yt7_Qxqo5e5LU2BX8gVR97iM" />
             <h3 className='text-center mt-4 font-bold'>Tadd LeRocque</h3>
             <div className='flex flex-row justify-center'>
               <a href="https://www.linkedin.com/in/taddlerocque/"><img className='w-12' src={linkedin}/></a>
