@@ -9,10 +9,10 @@ const Blog = () => {
 
       </div>
       <h2 className='mt-4 text-3xl font-bold tracking-tight text-gray-200 sm:text-4xl'>IndiK8or: A New Game Player</h2>
-      <div className='mt-8 max-w-3xl space-y-6 text-gray-400'>
-        <p>Read more about the launch of IndiK8or on Medium! This article will show you why IndiK8or is an ideal solution for senior developers and organizations, ensuring the health and performance of their Kubernetes-based applications.</p>
+      <div className='mt-8 w-full space-y-6 text-gray-400 text-2xl'>
+        <p>Read more about IndiK8or on Medium! This article will show you why IndiK8or is an ideal solution for senior developers and organizations, ensuring the health and performance of their Kubernetes-based applications.</p>
       </div>
-      <a className='group inline-flex items-center h-9 rounded-full text-lg font-semibold whitespace-nowrap px-5 focus:outline-none focus:ring-2 bg-indigo-50 text-gray-200
+      <a className='group inline-flex items-center h-9 rounded-full text-2xl font-semibold whitespace-nowrap px-5 focus:outline-none focus:ring-2 bg-indigo-50 text-gray-200
       hover:bg-yellow-500 hover:text-gray-700 focus:ring-indigo-500 dark:bg-slate-700 dark:text-slate-slate-100
       dark:hover:text-gray-800 dark:focus:ring-slate-500 mt-8' href="https://medium.com/@wanwangbtb/a-new-game-player-indik8or-237daac583d6">Read on Medium
         <span className='sr-only'>, responsive design</span>

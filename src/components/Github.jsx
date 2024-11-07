@@ -8,11 +8,11 @@ const Github = () => {
 
       </div>
       <h2 className='mt-4 text-3xl font-bold tracking-tight text-gray-200 sm:text-4xl'>Visit Github Repository</h2>
-      <div className='mt-8 max-w-3xl space-y-6 text-gray-400'>
+      <div className='mt-8 w-full space-y-6 text-gray-400 text-2xl'>
         <p>Check out INDIK8OR on our Github where you will find everything you need to start the application.</p>
         <p>Feel free to submit any issues or contribute as a fellow developer to the open source product on Github.</p>
       </div>
-      <a className='group inline-flex items-center h-9 rounded-full text-lg font-semibold whitespace-nowrap px-5 focus:outline-none focus:ring-2 bg-indigo-50 text-gray-200
+      <a className='group inline-flex items-center h-9 rounded-full font-semibold whitespace-nowrap px-5 text-2xl focus:outline-none focus:ring-2 bg-indigo-50 text-gray-200
       hover:bg-indigo-500 hover:text-indigo-700 focus:ring-indigo-500 dark:bg-slate-700 dark:text-slate-slate-100
       dark:hover:text-white dark:focus:ring-slate-500 mt-8' href="https://github.com/oslabs-beta/indiK8or">Get Started
         <span className='sr-only'>, responsive design</span>

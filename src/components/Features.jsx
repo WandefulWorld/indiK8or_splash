@@ -1,6 +1,10 @@
 const features = [
-  { name: 'Visual Overview', description: 'It provides a visual overview including information on the nodes, pods, services, and other critical components of the cluster. With this information, administrators can quickly detect and respond to any issues such as node or pod failures, before they cause major problems.' },
-  { name: 'Pod Health', description: "It shows you the health and status of the pods, providing the details including image's name, ready, status, age, and IP. It additionally offers images & vulnerability scan." },
+  { name: 'Visual Overview', 
+    description: 'It provides a visual overview including information on the nodes, pods, services, and other critical components of the cluster. With this information, administrators can quickly detect and respond to any issues such as node or pod failures, before they cause major problems.'
+  },
+  { name: 'Pod Health', 
+    description: "It shows you the health and status of the pods, providing the details including image's name, ready, status, age, and IP. It additionally offers images & vulnerability scan."
+  },
 ];
 const images = [
   {
@@ -21,7 +25,7 @@ const images = [
 
 export default function Features() {
   return (
-    <div className='bg-black font-serif '>
+    <section className='bg-black font-serif '>
       <div className="mx-auto grid max-w-2xl grid-cols-1 items-center gap-x-8 gap-y-16 px-4 py-24 sm:px-6 sm:py-32 lg:max-w-7xl lg:grid-cols-1 lg:px-8">
         <div>
           <div className='animate-spin w-12 h-12 p-[0.1875rem] rounded-full ring-1 ring-slate-900/10 shadow overflow-hidden dark:bg-pink-500 dark:highlight-white/30'>
@@ -30,16 +34,16 @@ export default function Features() {
             </svg>
           </div>
           <h2 className="mt-4 text-3xl font-bold tracking-tight text-gray-200 sm:text-4xl">Technical Specifications</h2>
-          <p className="mt-4 text-gray-400">
-           INDIK8OR provides a user-friendly interface for developers to set up and interact with their Kubernetes clusters. By leveraging Kubernetes orchestration for
-           optimal scalability and effiency, INDIK8OR is able to provide real-time monitoring of the various architectural layers of the cluster.
+          <p className="mt-4 text-gray-400 text-2xl">
+            INDIK8OR provides a user-friendly interface for developers to set up and interact with their Kubernetes clusters. By leveraging Kubernetes orchestration for
+            optimal scalability and effiency, INDIK8OR is able to provide real-time monitoring of the various architectural layers of the cluster.
           </p>
 
           <dl className="mt-8 grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 sm:gap-y-16 lg:gap-x-8">
             {features.map((feature) => (
               <div key={feature.name} className="border-t border-gray-200 pt-4">
-                <dt className="font-bold text-gray-400">{feature.name}</dt>
-                <dd className="mt-2 text-sm text-gray-400">{feature.description}</dd>
+                <dt className="font-bold text-gray-400 text-2xl pt-4">{feature.name}</dt>
+                <dd className="mt-2 text-gray-400 text-xl pt-2">{feature.description}</dd>
               </div>
             ))}
             {images.map((product) => (
@@ -54,8 +58,6 @@ export default function Features() {
           </dl>
         </div>
       </div>
-    </div>
+    </section>
   )
 }
-
-

@@ -12,35 +12,35 @@ export default function Team() {
 
         </div>
         <h2 className='mt-4 text-3xl font-bold tracking-tight text-gray-200 sm:text-4xl'>Meet Our Team</h2>
-        <div className='mt-8 max-w-3xl space-y-6 text-gray-400 font-bold text-base'>
+        <div className='mt-8 w-full space-y-6 text-gray-400 text-2xl'>
           <p>We are a dynamic group of Software Engineers who are passionate about what we do</p>
         </div>
-        <ul role='list' className='flex flex-row mt-12 gap-12'>
+        <ul role='list' className='flex flex-row mt-1 gap-12'>
           <li className=''>
-            <h3 className='text-center mt-4 font-bold'>Yueran Li</h3>
-            <div className='flex flex-row justify-center'>
+            <h3 className='text-center mt-4 font-bold text-xl'>Yueran Li</h3>
+            <div className='flex flex-row justify-center pt-4'>
               <a href="https://www.linkedin.com/in/yueranli/"><img className='w-12' src={linkedin}/></a>
               <a href="https://github.com/kneazle714"><img className='w-12' src={github}/></a>
             </div>
           </li>
           <li>
-            <h3 className='text-center mt-4 font-bold'>Ivy Wang </h3>
-            <div className='flex flex-row justify-center'>
+            <h3 className='text-center mt-4 font-bold text-xl'>Ivy Wang </h3>
+            <div className='flex flex-row justify-center pt-4'>
               <a href="https://www.linkedin.com/in/wanwang12/"><img className='w-12' src={linkedin}/></a>
               <a href="https://github.com/WandefulWorld"><img className='w-12' src={github}/></a>
             </div>
           </li>
           <li>
-            <h3 className='text-center mt-4 font-bold'>Julian Babon</h3>
-            <div className='flex flex-row justify-center'>
+            <h3 className='text-center mt-4 font-bold text-xl'>Julian Babon</h3>
+            <div className='flex flex-row justify-center pt-4'>
               <a href="https://www.linkedin.com/in/julianbabon/"><img className='w-12' src={linkedin}/></a>
               <a href="https://github.com/babonjmc"><img className='w-12' src={github}/></a>
             </div>
 
           </li>
           <li>
-            <h3 className='text-center mt-4 font-bold'>Tadd LeRocque</h3>
-            <div className='flex flex-row justify-center'>
+            <h3 className='text-center mt-4 font-bold text-xl'>Tadd LeRocque</h3>
+            <div className='flex flex-row justify-center pt-4'>
               <a href="https://www.linkedin.com/in/taddlerocque/"><img className='w-12' src={linkedin}/></a>
               <a href="https://github.com/LeRocque"><img className='w-12' src={github}/></a>
             </div>
