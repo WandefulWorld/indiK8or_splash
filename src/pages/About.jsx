@@ -1,5 +1,4 @@
 import Header from '../components/Header';
-import kubernetesImg from '../assets/kubernetesImg.png';
 
 const About = () => {
   return (
@@ -21,7 +20,7 @@ const About = () => {
         </p>
       </div>
       <img
-        src={ kubernetesImg }
+        src= '/assets/kubernetesImg.png'
         alt='K8s'
         className= 'mx-auto max-w-7xl fade-edges'
       />
