@@ -18,4 +18,11 @@
   -webkit-text-size-adjust: 100%;
 }
 
+.fade-edges {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  mask-image: radial-gradient(circle, transparent, black 5%, black 5%, transparent),
+              linear-gradient(to right, transparent, black 5%, black 20%, transparent);
+}
 
