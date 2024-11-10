@@ -26,3 +26,7 @@
               linear-gradient(to right, transparent, black 5%, black 20%, transparent);
 }
 
+.transition-opacity {
+  transition: opacity 1s ease-in-out;
+}
+

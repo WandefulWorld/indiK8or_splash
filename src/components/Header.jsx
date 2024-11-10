@@ -18,7 +18,7 @@ const Header = () => {
 
 const styles = {
   header: {
-    background: 'linear-gradient(to bottom, #aaa9ad, #000000)', 
+    background: 'linear-gradient(to bottom, #bdc3c7, #000000)', 
     padding: '20px 20px 60px 20px', 
     textAlign: 'center',
   },

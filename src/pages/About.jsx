@@ -24,7 +24,7 @@ const About = () => {
         alt='K8s'
         className= 'mx-auto max-w-7xl fade-edges'
       />
-      </div>
+    </div>
   );
 };
 
