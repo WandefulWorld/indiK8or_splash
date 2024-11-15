@@ -22,7 +22,7 @@ const technologyCards = [
   {
     title: "DevOps",
     tech: [
-      "AWS: An on-demand cloud computing platforms and APIs, IndiK9or utilized AWS Cloud53 servives for hosting its public sites",
+      "AWS: An on-demand cloud computing platforms and APIs, IndiK8or utilizes AWS Cloud53 servives for hosting its public sites",
       "Docker: OS-level virtualization to deliver software in containers",
       "Kubernetes: Container orchestration system for automating software deployment",
       "Helm-chart: Package manager for Kubernetes, used to define, install, and upgrade Kubernetes applications",
